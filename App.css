@@ -1,0 +1,122 @@
+body {
+  margin: 50px 100px 300px 300px;
+  padding: 100px;
+  font-family: 'Brush Scrippt MT', cursive;
+  background-color: #c5b9f2;
+  background-image: url('images/vip.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right center;
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+  right: 10%;
+  justify-content: center;
+}
+
+.todo-container {
+  width: 500px;
+  height: 200px;
+  background-image: linear-gradient(to right, #f9f9f9, #c5b9f2);
+  background-color: #c5b9f2;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+
+.list-container {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #f9f9f9, #c5b9f2);
+  background-color: #c5b9f2;
+  width: 500px;
+  text-align: center;
+  height: 400px;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  background-color: transparent;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 250px;
+  padding: 8px 15px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: 0.2s;
+  background-color: #f1f5f9;
+}
+
+input[type="text"]:focus {
+  border-color: #c5b9f2;
+}
+
+button {
+  font-size: 12px;
+  padding: 5px 8px;
+  background-color: #bfa5fb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #9b80fd;
+}
+
+.task-item {
+  display: flex;
+  background-color: #bfa5fb;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to left, #f9f9f9, #c5b9f2 );
+  background-color: #cbe7fe;
+  padding: 3px 15px;
+  margin: 5px 5px;
+  width: 80%;
+  max-width: 80%;
+  word-wrap: break-word;
+  border-radius: 6px;
+  max-width: 100%;
+  box-shadow: 0 1px 3px rgba(97, 132, 247, 0.1);
+}
+
+.completed .task-text {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+
+

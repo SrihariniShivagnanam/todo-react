@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Brush Script MT', cursive;
+  background-color: #c5b9f2;
+  background-image: url('images/login.jpeg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app-container {
+  background-image: linear-gradient(to right, #f9f9f9, #c5b9f2);
+  padding: 60px;
+  width: 350px;
+  display: flex;
+  border-radius: 5px;
+  position: relative;
+  right: 50%;
+  left: 50%;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #5e5c5e;
+  font-size: 24px;
+}
+
+.login-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-wrapper input {
+  width: 90%;
+  padding: 10px 0px 10px 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.input-icon {
+  position: absolute;
+  left: 7px;
+  top: 50%;
+  color: #bfa5fb;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 16px;
+}
+
+.toggle-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 16px;
+  color: #7a59c4;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: #bfa5fb;
+  color: white;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c5b9f2;
+}
+
+.social-icon{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  font-size: larger;
+  color: #bfa5fb;
+  margin-top: 15px;
+}
